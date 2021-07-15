@@ -36,7 +36,7 @@
         </div>
 
         <div class="transbox">
-            <img class="staffpic" src='./tlv.jpeg'/>
+            <img class="staffpic" src='./images/tlv.jpeg'/>
         </div>
     </div>
 
@@ -51,4 +51,28 @@
 <footer>
     <p>Tacos La Villa | (770) 951-0415 | 2415 Cobb Pkwy SE, Smyrna, GA 30080</p>
 </footer>
+
+<script>
+    var i = 0;
+    var image = [];
+    var time = 4000;
+
+    images[0] = 'image1.jpg'
+    images[1] = 'image2.jpg'
+    images[2] = 'image3.jpg'
+
+    function = changeImg(){
+        document.slide.src = images[i];
+        if(i < images.length - 1) {
+            i++;
+        } else {
+            i=0;
+        }
+        
+        setTimeout("changeImg()", time);
+    }
+
+    windolw.onload = changeImg;
+</script>
+<img name = "slide" width="400" height="200" />
 </html>

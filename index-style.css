@@ -7,7 +7,7 @@ html {
 body {
     margin: 0;
     /* Photo by Alex Arekuzendo on Unsplash */
-    background-image: url("flags.jpg");
+    background-image: url("./images/flags.jpg");
     background-color: #006341
 }
 
