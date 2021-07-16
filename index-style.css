@@ -43,7 +43,6 @@ div.transbox {
   border: 1px solid black;
 }
 
-
 div.transbox p {
   margin: 1%;
   font-weight: bold;
@@ -54,6 +53,11 @@ div.transbox p {
 .title {
   font-family: 'Londrina Solid', cursive;
   font-size: 6rem;
+}
+
+.heading {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 3rem;
 }
 
 /* Mexican Flag CSS colors - what TLV uses in their logo */
@@ -84,4 +88,21 @@ footer > p {
 .picslider {
   display: block;
   margin: 3% auto;
+}
+
+.mapouter {
+  display: block;
+  margin: 3% auto;
+}
+
+.info {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .info {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 1.6rem;
+  }
 }
