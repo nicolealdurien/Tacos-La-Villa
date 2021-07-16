@@ -7,7 +7,9 @@ html {
 body {
     margin: 0;
     /* Photo by Alex Arekuzendo on Unsplash */
-    background-image: url("./images/flags.jpg");
+    /* background-image: url("flags.jpg"); */
+    /* Photo by Jorge Aguilar on Unsplash */
+    background-image: url("mxflag.jpg");
     background-color: #006341
 }
 
@@ -79,8 +81,7 @@ footer > p {
   text-align: center
 }
 
-.staffpic {
+.picslider {
   display: block;
   margin: 3% auto;
-  height: auto
 }

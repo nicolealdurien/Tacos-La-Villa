@@ -27,7 +27,7 @@
         <a href="#menu">Men&uacute;/Menu</a>
         <a href="#hours">Location & Hours</a>
         <a href="#contact">Contact Us</a>
-        <a href="#esp">En Espa&#209;ol</a>
+        <a href="#esp">En Espa&ntilde;ol</a>
     </div>
 
     <div class="background">
@@ -36,8 +36,9 @@
         </div>
 
         <div class="transbox">
-            <img class="staffpic" src='./images/tlv.jpeg'/>
+            <img class="picslider" name="slide" width="600" height="600" />
         </div>
+        
     </div>
 
 <!-- *** Custom Scripts ***  -->  
@@ -54,14 +55,16 @@
 
 <script>
     var i = 0;
-    var image = [];
+    var images = [];
     var time = 4000;
 
-    images[0] = 'image1.jpg'
-    images[1] = 'image2.jpg'
-    images[2] = 'image3.jpg'
+    images[0] = 'asadatacos.jpeg'
+    images[1] = 'tlv.jpeg'
+    images[2] = 'tacoheart.jpeg'
+    images[3] = 'tripadvisor.jpeg'
+    images[4] = 'asada.jpeg'
 
-    function = changeImg(){
+    function changeImg(){
         document.slide.src = images[i];
         if(i < images.length - 1) {
             i++;
@@ -72,7 +75,7 @@
         setTimeout("changeImg()", time);
     }
 
-    windolw.onload = changeImg;
+    window.onload = changeImg;
 </script>
-<img name = "slide" width="400" height="200" />
+   
 </html>
