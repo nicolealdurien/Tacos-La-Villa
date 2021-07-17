@@ -39,7 +39,7 @@ body {
 
 div.transbox {
   margin: 10px;
-  background-color: rgb(199, 196, 196, 0.6);
+  background-color: rgb(199, 196, 196, 0.7);
   border: 1px solid black;
 }
 
@@ -57,7 +57,7 @@ div.transbox p {
 
 .heading {
   font-family: 'Londrina Solid', cursive;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 /* Mexican Flag CSS colors - what TLV uses in their logo */

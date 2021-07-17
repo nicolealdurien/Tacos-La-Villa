@@ -1,10 +1,72 @@
-meats = [Asada, Pastor,  Pollo, Chorizo, Lengua, Tripa, Carnitas, Barbacoa, Borrego, Cabeza, Milanesa de Pollo, Milanesa de Res]
+meats = [
+    {
+        "id": 1,
+        "Spanish": "Asada", 
+        "English": "Steak"
+    }, 
+    {
+        "id": 2,
+        "Spanish": "Pastor", 
+        "English": "Marinated Pork"
+    }, 
+    {
+        "id": 3,
+        "Spanish": "Pollo", 
+        "English": "Chicken"
+    }, 
+    {
+        "id": 4,
+        "Spanish": "Chorizo", 
+        "English": "Mexican Sausage"
+    }, 
+    {
+        "id": 5,
+        "Spanish": "Lengua", 
+        "English": "Beef Tongue"
+    }, 
+    {
+        "id": 6,
+        "Spanish": "Tripa", 
+        "English": "Tripe"
+    }, 
+    {
+        "id": 7,
+        "Spanish": "Carnitas", 
+        "English": "Mexican Pulled Pork"
+    }, 
+    {
+        "id": 8,
+        "Spanish": "Barbacoa", 
+        "English": "Shredded Beef"
+    }, 
+    {
+        "id": 9,
+        "Spanish": "Borrego", 
+        "English": "Lamb"
+    }, 
+    {
+        "id": 10,
+        "Spanish": "Cabeza", 
+        "English": "Beef Head"
+    }, 
+    {
+        "id": 11,
+        "Spanish": "Milanesa de Pollo,", 
+        "English": "Breaded Fried Chicken"
+    }, 
+    {
+        "id": 12,
+        "Spanish": "Milanesa de Res", 
+        "English": "Breaded Fried Beef"
+    }
+]
 
 
 menu = [
     {
         "title": "Sope",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 1,
@@ -12,7 +74,8 @@ menu = [
     },
     {
         "title": "Ensalada de Pollo",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 2,
@@ -20,7 +83,8 @@ menu = [
     },
     {
         "title": "Tostada",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 3,
@@ -28,7 +92,8 @@ menu = [
     },
     {
         "title": "Nachos",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 4,
@@ -36,7 +101,8 @@ menu = [
     },
     {
         "title": "Chicken Fingers",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 5,
@@ -44,7 +110,8 @@ menu = [
     },
     {
         "title": "Tamal de Puerco",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 6,
@@ -52,7 +119,8 @@ menu = [
     },
     {
         "title": "Taco Salad",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 7,
@@ -60,7 +128,8 @@ menu = [
     },
     {
         "title": "Huarache",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 8,
@@ -68,7 +137,8 @@ menu = [
     },
     {
         "title": "Chimichanga",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 9,
@@ -76,7 +146,8 @@ menu = [
     },
     {
         "title": "Burrito Verde",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 10,
@@ -84,7 +155,8 @@ menu = [
     },
     {
         "title": "Flautas",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 11,
@@ -92,7 +164,8 @@ menu = [
     },
     {
         "title": "Quesadilla",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 12,
@@ -100,7 +173,8 @@ menu = [
     },
     {
         "title": "Torta",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 13,
@@ -108,7 +182,8 @@ menu = [
     },
     {
         "title": "Burrito La Villa",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 14,
@@ -116,7 +191,8 @@ menu = [
     },
     {
         "title": "Burrito Regular",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 15,
@@ -124,7 +200,8 @@ menu = [
     },
     {
         "title": "Tamal de Pollo",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Starters",
         "id" : 16,
@@ -132,7 +209,8 @@ menu = [
     },
     {
         "title": "Chips and Salsa",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
         "id" : 17,
@@ -140,7 +218,8 @@ menu = [
     },
     {
         "title": "Pico de Gallo",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
         "id" : 18,
@@ -148,7 +227,8 @@ menu = [
     },
     {
         "title": "Arroz",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
         "id" : 19,
@@ -156,7 +236,8 @@ menu = [
     },
     {
         "title": "Frijoles",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
         "id" : 20,
@@ -164,322 +245,380 @@ menu = [
     },
     {
         "title": "Aguacate",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
-        "id" : 20,
+        "id" : 21,
         "price" : 1.71
     },
     {
         "title": "Arroz y Frijoles",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
-        "id" : 21,
+        "id" : 22,
         "price" : 1.91
     },
     {
         "title": "6 Tortillas de Maiz",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
-        "id" : 22,
+        "id" : 23,
         "price" : 0.71
     },
     {
         "title": "6 Tortillas de Arina",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
-        "id" : 22,
+        "id" : 24,
         "price" : 0.71
     },
     {
         "title": "Chips and Queso",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
-        "id" : 23,
+        "id" : 25,
         "price" : 4.31
     },
     {
         "title": "Chips and Guacamole",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
-        "id" : 24,
+        "id" : 26,
         "price" : 4.31
     },
     {
         "title": "Crema",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
-        "id" : 25,
+        "id" : 27,
         "price" : 0.71
     },
     {
         "title": "Guacamole",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
-        "id" : 25,
+        "id" : 28,
         "price" : 0.71
     },
     {
         "title": "Queso",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
-        "id" : 25,
+        "id" : 29,
         "price" : 3.71
     },
     {
         "title": "Nopales Asados",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
-        "id" : 25,
+        "id" : 30,
         "price" : 0.89
     },
     {
         "title": "Cebollitas Asadas",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
-        "id" : 25,
+        "id" : 31,
         "price" : 0.71
     },
     {
         "title": "Ranch",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
-        "id" : 25,
+        "id" : 32,
         "price" : 0.71
     },
     {
         "title": "French Fries",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
-        "id" : 25,
+        "id" : 33,
         "price" : 2.39
     },
     {
         "title": "Carne Asada Fries",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Sides",
-        "id" : 25,
+        "id" : 34,
         "price" : 9.59
     },
     {
         "title": "Chuletas de Puerco",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 35,
         "price" : 13.19
     },
     {
         "title": "Plato de Cesina",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 36,
         "price" : 13.19
     },
     {
         "title": "Fajitas de Res",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 37,
         "price" : 14.39
     },
     {
         "title": "Taco Plate",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 38,
         "price" : 7.91
     },
     {
         "title": "Choripollo",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 39,
         "price" : 13.91
     },
     {
         "title": "Coctel de Camaron Chico",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 40,
         "price" : 15.59
     },
     {
         "title": "Coctel de Camaron Grande",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 41,
         "price" : 17.99
     },
     {
         "title": "Alambre",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 42,
         "price" : 8.59
     },
     {
         "title": "Puerco en Salsa Verde",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 43,
         "price" : 13.19
     },
     {
         "title": "Camarones ala Diabla",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 44,
         "price" : 15.59
     },
     {
         "title": "Fajitas de Pollo",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 45,
         "price" : 13.19
     },
     {
         "title": "Los Compadres",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 46,
         "price" : 15.59
     },
     {
         "title": "Costillas de Res Asadas",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 47,
         "price" : 15.59
     },
     {
         "title": "Filete ala Plancha",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 48,
         "price" : 14.39
     },
     {
         "title": "Carne Asada",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 49,
         "price" : 13.19
     },
     {
         "title": "Filete Empanizado",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 50,
         "price" : 14.39
     },
     {
         "title": "Caldo de Res",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 51,
         "price" : 13.19
     },
     {
         "title": "Mojarra",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 52,
         "price" : 14.39
     },
     {
         "title": "Fajitas Tejanas",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 53,
         "price" : 14.39
     },
     {
         "title": "Heart Plate",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Specials",
-        "id" : 25,
-        "price" : 14.39
+        "id" : 54,
+        "price" : 28.00
     },
     {
         "title": "Taco",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Main Dishes",
-        "id" : 25,
+        "id" : 55,
         "price" : 1.99
     },
     {
         "title": "Kids Quesadilla",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Kids",
-        "id" : 25,
+        "id" : 56,
         "price" : 5.51
     },
     {
         "title": "Kids Plate",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Kids",
-        "id" : 25,
+        "id" : 57,
         "price" : 5.51
     },
     {
         "title": "Jarritos",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Drinks",
-        "id" : 25,
+        "id" : 58,
         "price" : 2.15
     },
     {
         "title": "Jamaica",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Drinks",
-        "id" : 25,
+        "id" : 59,
         "price" : 2.39
     },
     {
         "title": "Horchata",
-        "description" : null,
+        "description-eng" : null,
+        "description-esp" : null,
         "imageURL" : null",
         "course" : "Drinks",
-        "id" : 25,
+        "id" : 60,
         "price" : 2.39
+    },
+    {
+        "title": "Agua Fresca Chica",
+        "description-eng" : null,
+        "description-esp" : null,
+        "imageURL" : null",
+        "course" : "Drinks",
+        "id" : 61,
+        "price" : 1.99
+    },
+    {
+        "title": "Agua Fresca Grande",
+        "description-eng" : null,
+        "description-esp" : null,
+        "imageURL" : null",
+        "course" : "Drinks",
+        "id" : 60,
+        "price" : 2.99
     },
 ]
