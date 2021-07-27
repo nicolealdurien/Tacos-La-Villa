@@ -64,9 +64,8 @@ meats = [
 
 menu = [
     {
-        "title-esp" : "Sope",
-        "title-eng" : "Sope",
-        "description-eng" : "Your choice of meat topped with lettuce, beans, tomato, onions, avocado, cheese, and sour cream.",
+        "title" : "Sope",
+        "description-eng" : "Fried masa base topped with your choice of meat topped with lettuce, beans, tomato, onions, avocado, cheese, and sour cream.",
         "description-esp" : "Escoja su carne, preparado con frijoles, lechuga, tomate, cebolla, aguacate, queso y crema.",
         "imageURL" : null,
         "course" : "Starters",
@@ -74,7 +73,7 @@ menu = [
         "price" : 3.59
     },
     {
-        "title": "Ensalada de Pollo",
+        "title" : "Ensalada de Pollo (Chicken Salad)",
         "description-eng" : null,
         "description-esp" : null,
         "imageURL" : null,
@@ -83,9 +82,8 @@ menu = [
         "price" : 8.39
     },
     {
-        "title-eng": "Tostada",
-        "title-esp": "Tostada",
-        "description-eng" : "With beans, lettuce, tomato, onions, sour cream, cheese, and avocado",
+        "title": "Tostada",
+        "description-eng" : "Toasted tortilla with beans, lettuce, tomato, onions, sour cream, cheese, and avocado",
         "description-esp" : "Frijoles, lechuga, tomate, cebolla, crema, queso y aguacate",
         "imageURL" : null,
         "course" : "Starters",
@@ -93,9 +91,8 @@ menu = [
         "price" : 2.99
     },
     {
-        "title-esp": "La Villa Nachos",
-        "title-eng": "La Villa Nachos",
-        "description-eng" : "Your choice of meat topped with beans, cheese, bell peppers, onions, and jalape&ntilde;os.",
+        "title": "La Villa Nachos",
+        "description-eng" : "Tortilla chips with your choice of meat, topped with beans, cheese, bell peppers, onions, and jalape&ntilde;os.",
         "description-esp" : "Escoja su carne, preparado con frijoles, queso, chile pimiento, cebolla y jalape&ntilde;os.",
         "imageURL" : null,
         "course" : "Starters",
@@ -112,8 +109,7 @@ menu = [
         "price" : 5.99
     },
     {
-        "title-eng": "Tamal",
-        "title-esp": "Tamal",
+        "title": "Tamal",
         "description-eng" : "With your choice of chicken or pork",
         "description-esp" : "Escoja de pollo o puerco",
         "imageURL" : null,
@@ -131,9 +127,8 @@ menu = [
         "price" : 7.91
     },
     {
-        "title-eng": "Huarache",
-        "title-esp": "Huarache",
-        "description-eng" : "Your choice of meat topped with beans, lettuce, tomato, onions, avocado, cheese, and sour cream.",
+        "title": "Huarache",
+        "description-eng" : "Masa cake with your choice of meat topped with beans, lettuce, tomato, onions, avocado, cheese, and sour cream.",
         "description-esp" : "Huaraches hechos con la carne de preferencia, servidos con lechuga, tomate, cebolla, aguacate, queso y crema.",
         "imageURL" : null,
         "course" : "Starters",
@@ -141,8 +136,7 @@ menu = [
         "price" : 7.19
     },
     {
-        "title-esp": "Chimichanga",
-        "title-eng": "Chimichanga",
+        "title": "Chimichanga",
         "description-eng" : "Fried or soft, with cheese and your choice of meat",
         "description-esp" : "Carne de to preferencia, chimichanga frita o suave, con queso",
         "imageURL" : null,
@@ -160,8 +154,7 @@ menu = [
         "price" : 8.39
     },
     {
-        "title-eng": "Flautas",
-        "title-esp": "Flautas",
+        "title": "Flautas",
         "description-eng" : "Rolled crunchy tortillas, served with your choice of meat, avocado, and sour cream.",
         "description-esp" : "Flautas hechas con la carne de preferencia, servidas con aguacate y crema.",
         "imageURL" : null,
@@ -170,8 +163,7 @@ menu = [
         "price" : 8.39
     },
     {
-        "title-esp" : "Quesadilla",
-        "title-eng" : "Quesadilla"
+        "title" : "Quesadilla",
         "description-eng" : "Your choice of meat, served with rice, beans, or house salad.",
         "description-esp" : "Escoja su carne, servida con arroz, frijoles o ensalada de la casa.",
         "imageURL" : null,
@@ -180,9 +172,8 @@ menu = [
         "price" : 8.59
     },
     {
-        "title-esp": "Torta",
-        "title-eng" : "Torta",
-        "description-eng" : "Your choice of meat, with beans, lettuc, jalape&ntilde;o, tomato, avocado, onions, cheese, and mayo.",
+        "title": "Torta",
+        "description-eng" : "Your choice of meat, with beans, lettuce, jalape&ntilde;o, tomato, avocado, onions, cheese, and mayo.",
         "description-esp" : "Escoja su carne, preparada con frijoles, lechuga, tomate, jalape&ntilde;o, aguacate, cebolla, queso y mayonesa.",
         "imageURL" : null,
         "course" : "Starters",
@@ -199,8 +190,7 @@ menu = [
         "price" : 8.39
     },
     {
-        "title-esp" : "Burrito",
-        "title-eng": "Burrito",
+        "title": "Burrito",
         "description-eng" : "Your choice of meat, with rice, beans, lettuce, onions, cilantro, sour cream, and cheese.",
         "description-esp" : "Escoja su carne, preparado con frijoles, lechuga, cebolla, queso y crema.",
         "imageURL" : null,
@@ -370,21 +360,21 @@ menu = [
         "id" : 34,
         "price" : 9.59
     },
-    {
-        "title": "Chuletas de Puerco",
-        "description-eng" : null,
-        "description-esp" : null,
+    { 
+        "title": "Chuleta de Puerco (Porkchop)",
+        "description-eng" : "Pork chop served with grilled onions, rice, beans, and avocado.",
+        "description-esp" : "Chuleta de puerco servida con arroz, frijoles, cebollitas asadas, y aguacate.",
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 35,
         "price" : 13.19
     },
     {
         "title": "Plato de Cesina",
-        "description-eng" : null,
-        "description-esp" : null,
+        "description-eng" : "Grilled cured beef steak served with rice, beans, and avocado.",
+        "description-esp" : "Cesina de res servica con arroz, frijoles, y aguacate.",
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 36,
         "price" : 13.19
     },
@@ -393,7 +383,7 @@ menu = [
         "description-eng" : "Grilled steak served with rice, beans, and avocado.",
         "description-esp" : "Fajitas de asada servidas con arroz, frijoles, y aguacate.",
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 37,
         "price" : 14.39
     },
@@ -402,16 +392,16 @@ menu = [
         "description-eng" : null,
         "description-esp" : null,
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 38,
         "price" : 7.91
     },
     {
         "title": "Choripollo",
-        "description-eng" : null,
-        "description-esp" : null,
+        "description-eng" : "Chicken and Mexican sausage topped with cheese, served with rice and beans.",
+        "description-esp" : "Pollo, chorizo servido con queso, arroz, y frijoles.",
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 39,
         "price" : 13.91
     },
@@ -420,7 +410,7 @@ menu = [
         "description-eng" : null,
         "description-esp" : null,
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 40,
         "price" : 15.59
     },
@@ -429,7 +419,7 @@ menu = [
         "description-eng" : null,
         "description-esp" : null,
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 41,
         "price" : 17.99
     },
@@ -438,16 +428,16 @@ menu = [
         "description-eng" : "Your choice of meat served with cheese, bell pepper, and onion.",
         "description-esp" : "Escoja su carne, servida con queso, pimiento y cebolla.",
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 42,
         "price" : 8.59
     },
     {
         "title": "Puerco en Salsa Verde",
-        "description-eng" : null,
-        "description-esp" : null,
+        "description-eng" : "Pork topped with salsa verde, served with rice, beans, and avocado.",
+        "description-esp" : "Plato de carnitas en salsa verde, servida con arroz, frijoles, y aguacate.",
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 43,
         "price" : 13.19
     },
@@ -456,16 +446,16 @@ menu = [
         "description-eng" : null,
         "description-esp" : null,
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 44,
         "price" : 15.59
     },
-    {
-        "title": "Fajitas de Pollo",
-        "description-eng" : null,
-        "description-esp" : null,
+    {   
+        "title-esp": "Fajitas de Pollo (Chicken)",
+        "description-eng" : "Grilled chicken served with rice, beans, and avocado.",
+        "description-esp" : "Fajitas de pollo servidas con arroz, frijoles, y aguacate.",
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 45,
         "price" : 13.19
     },
@@ -474,7 +464,7 @@ menu = [
         "description-eng" : "Grilled shrimp with your choice of steak or chicken. Served with avocado, rice, and salad.",
         "description-esp" : "Camar&oacute;n y asada &oacute; camar&oacute;n y pollo, servidos con arroz, aguacate y ensalada.",
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 46,
         "price" : 15.59
     },
@@ -483,7 +473,7 @@ menu = [
         "description-eng" : "Beef short ribs served with rice, beans, grilled onions, and avocado.",
         "description-esp" : "Costillas de res servidas con arroz, frijoles, cebollitas asadas y aguacate.",
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 47,
         "price" : 15.59
     },
@@ -492,17 +482,16 @@ menu = [
         "description-eng" : null,
         "description-esp" : null,
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 48,
         "price" : 14.39
     },
     {
-        "title-eng": "Carne Asada",
-        "title-esp": "Carne Asada",
+        "title": "Carne Asada",
         "description-eng" : "Grilled cured beef steak served with rice, grilled onions, beans, and avocado.",
         "description-esp" : "Carne preparada asada, servida con arroz, cebollitas asadas, aguacate y frijoles.",
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 49,
         "price" : 13.19
     },
@@ -511,7 +500,7 @@ menu = [
         "description-eng" : null,
         "description-esp" : null,
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 50,
         "price" : 14.39
     },
@@ -520,7 +509,7 @@ menu = [
         "description-eng" : null,
         "description-esp" : null,
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 51,
         "price" : 13.19
     },
@@ -529,7 +518,7 @@ menu = [
         "description-eng" : null,
         "description-esp" : null,
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 52,
         "price" : 14.39
     },
@@ -538,7 +527,7 @@ menu = [
         "description-eng" : null,
         "description-esp" : null,
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 53,
         "price" : 14.39
     },
@@ -552,12 +541,11 @@ menu = [
         "price" : 28.00
     },
     {
-        "title-eng": "Taco",
-        "title-esp": "Taco",
+        "title": "Taco",
         "description-eng" : "Your choice of meat, served with cilantro, onion, and salsa.",
         "description-esp" : "Escoja su carne, y acompa&ntilde;ados con cebolla, cilantro y salsa.",
         "imageURL" : null,
-        "course" : "Main Dishes",
+        "course" : "Main",
         "id" : 55,
         "price" : 1.99
     },
@@ -621,17 +609,43 @@ menu = [
         "description-esp" : null,
         "imageURL" : null,
         "course" : "Drinks",
-        "id" : 60,
+        "id" : 62,
         "price" : 2.99
     },
     {
-        "title-eng": "Pechuga Asada",
-        "title-esp": "Pechuga Asada",
+        "title": "Pechuga Asada",
         "description-eng" : "Grilled chicken breast with beans, rice, and avocado.",
         "description-esp" : "Pechuga asada servida con frijoles, arroz y aguacate.",
         "imageURL" : null,
-        "course" : "Drinks",
-        "id" : 60,
+        "course" : "Main",
+        "id" : 63,
         "price" : 2.99
     },
+    {
+        "title": "Milanesa de Pollo &oacute; Res",
+        "description-eng" : "Breaded chicken breast or steak, with rice, beans, and avocado.",
+        "description-esp" : "Pechuga &oacute; bistec empanizado con arroz, frijoles, y aguacate.",
+        "imageURL" : null,
+        "course" : "Main",
+        "id" : 64,
+        "price" : 2.99
+    },
+    {
+        "title": "Papas con Carne (Loaded Fries)",
+        "description-eng" : "Fries with your choice of meat, beans, cheese, bell peppers, and onion.",
+        "description-esp" : "Papas con tu selecci&oacute;n de carne, servido con frijoles, queso, pimientos, y cebolla.",
+        "imageURL" : null,
+        "course" : "Main",
+        "id" : 64,
+        "price" : 2.99
+    },
+    {
+        "title-esp": "Alitas BBQ (Chicken Wings)",
+        "description-eng" : "Wings with your choice of hot, mild, or lemon pepper.",
+        "description-esp" : "Alitas de pollo con tu selecci&oacute;n picosas, medianas, &oacute; pimienta y lim&oacute;n",
+        "imageURL" : null,
+        "course" : "Main",
+        "id" : 64,
+        "price" : 2.99
+    }
 ]
