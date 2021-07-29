@@ -5,6 +5,7 @@ const sidesUL = document.getElementById("sidesUL");
 const specialsUL = document.getElementById("specialsUL");
 const kidsUL = document.getElementById("kidsUL");
 const drinksUL = document.getElementById("drinksUL");
+const meatsUL = document.getElementById("meatsUL");
 
 const btnAll = document.getElementById("btnAll");
 const btnStarters = document.getElementById("btnStarters");
@@ -54,25 +55,13 @@ function nullCheck (label) {
 
 // To have all dishes visible on initial page load:
 
-// for (let index = 0; index < dishes.length; index++) {
-//     let meat = meats[index]  
-//     let meatItem = `
-//                         <li>
-//                             <h4><b>${meat.Spanish}</b>&nbsp&nbsp&nbsp&nbsp$${dish.price}&nbsp&nbsp</h4>
-//                             <br/>${dish.descriptionEsp}
-//                             <br/><br/><i>${dish.descriptionEng}</i>
-//                         </li>
-//                         <br>
-//                         `
-//     allDishesUL.insertAdjacentHTML('beforeend', dishItem)
-// }
-
 for (let index = 0; index < dishes.length; index++) {
     let dish = dishes[index]  
     let dishItem = `
-                        <li>
+                        <li id='${dish.course}'>
                             <b>${dish.title}</b>&nbsp&nbsp&nbsp&nbsp$${dish.price}&nbsp&nbsp
-                            <br/><br/>${nullCheck(dish.descriptionEsp)}
+                            <br/><br/><i>Course: ${dish.course}</i>
+                            <br/><br/><b>${nullCheck(dish.descriptionEsp)}</b>
                             <br/><br/><i>${nullCheck(dish.descriptionEng)}</i>
                         </li>
                         <br/><br/>
