@@ -43,15 +43,39 @@ const all = dishes.filter(function(dish) {
     return dish.title
 })
 
+function nullCheck (label) {
+    if (label == null) {
+        return label = ""
+    }
+    else {
+        return label
+    }
+}
+
 // To have all dishes visible on initial page load:
+
+// for (let index = 0; index < dishes.length; index++) {
+//     let meat = meats[index]  
+//     let meatItem = `
+//                         <li>
+//                             <h4><b>${meat.Spanish}</b>&nbsp&nbsp&nbsp&nbsp$${dish.price}&nbsp&nbsp</h4>
+//                             <br/>${dish.descriptionEsp}
+//                             <br/><br/><i>${dish.descriptionEng}</i>
+//                         </li>
+//                         <br>
+//                         `
+//     allDishesUL.insertAdjacentHTML('beforeend', dishItem)
+// }
+
 for (let index = 0; index < dishes.length; index++) {
     let dish = dishes[index]  
     let dishItem = `
                         <li>
-                            <h3><b>${dish.title}</b>&nbsp&nbsp&nbsp&nbsp$${dish.price}&nbsp&nbsp</h3>
-                            <p><i>${dish.descriptionEsp}</i></p>
+                            <b>${dish.title}</b>&nbsp&nbsp&nbsp&nbsp$${dish.price}&nbsp&nbsp
+                            <br/><br/>${nullCheck(dish.descriptionEsp)}
+                            <br/><br/><i>${nullCheck(dish.descriptionEng)}</i>
                         </li>
-                        <br>
+                        <br/><br/>
                         `
     allDishesUL.insertAdjacentHTML('beforeend', dishItem)
 }

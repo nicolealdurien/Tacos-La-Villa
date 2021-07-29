@@ -110,8 +110,8 @@ let dishes = [
     },
     {
         "title": "Tamal",
-        "descriptionEng" : "With your choice of chicken or pork",
-        "descriptionEsp" : "Escoja de pollo o puerco",
+        "descriptionEng" : "With your choice of chicken or pork.",
+        "descriptionEsp" : "Escoja de pollo o puerco.",
         "imageURL" : null,
         "course" : "Starters",
         "id" : 6,
@@ -137,8 +137,8 @@ let dishes = [
     },
     {
         "title": "Chimichanga",
-        "descriptionEng" : "Fried or soft, with cheese and your choice of meat",
-        "descriptionEsp" : "Carne de to preferencia, chimichanga frita o suave, con queso",
+        "descriptionEng" : "Fried or soft, with cheese and your choice of meat.",
+        "descriptionEsp" : "Carne de tu preferencia, chimichanga frita o suave, con queso.",
         "imageURL" : null,
         "course" : "Starters",
         "id" : 9,
@@ -451,7 +451,7 @@ let dishes = [
         "price" : 15.59
     },
     {   
-        "title-esp": "Fajitas de Pollo (Chicken)",
+        "title": "Fajitas de Pollo (Chicken)",
         "descriptionEng" : "Grilled chicken served with rice, beans, and avocado.",
         "descriptionEsp" : "Fajitas de pollo servidas con arroz, frijoles, y aguacate.",
         "imageURL" : null,
@@ -640,7 +640,7 @@ let dishes = [
         "price" : 2.99
     },
     {
-        "title-esp": "Alitas BBQ (Chicken Wings)",
+        "title": "Alitas BBQ (Chicken Wings)",
         "descriptionEng" : "Wings with your choice of hot, mild, or lemon pepper.",
         "descriptionEsp" : "Alitas de pollo con tu selecci&oacute;n picosas, medianas, &oacute; pimienta y lim&oacute;n",
         "imageURL" : null,
