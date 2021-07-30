@@ -100,11 +100,20 @@ footer > p {
   font-size: 2rem;
 }
 
-#button-container {
+#button-container-red {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #CE1126;
+  padding: 10px;
+  box-shadow: 1px 1px 2px 1px black
+}
+#button-container-green {
   max-width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #CE1126;
+  background-color: #006341;
   padding: 10px;
   box-shadow: 1px 1px 2px 1px black
 }
@@ -119,6 +128,20 @@ footer > p {
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
+}
+
+.food-photo-banner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+
+.food-image {
+  width: 200px;
+  height: 200px;
+  padding: .3rem;
 }
 
 @media only screen and (max-width: 450px) {

@@ -20,7 +20,8 @@
 
 <body>
   <div class="topnav">
-    <a class="active" href="./index-eng.html">Tacos La Villa</a>
+    <a class="active" href="./index-eng.html">TLV Home</a>
+    <a class="active" href="./index-esp.html">TLV Inicio</a>
   </div>
   
   <div class="transbox">
@@ -44,40 +45,49 @@
       <li>Milanesa de Res (Breaded Fried Beef)</li>
     </ul>
   </div>
-  
-  <!-- <div class="transbox">
-    <div id="button-container">
-      <button id="btnStarters">Starters</button>
-      <button id="btnMains">Main Dishes</button>
-      <button id="btnSides">Sides</button>
-      <button id="btnSpecials">Specials</button>
-      <button id="btnKids">Kids</button>
-      <button id="btnDrinks">Drinks</button>
-      <button id="btnAll">All</button>
+
+  <div class="transbox">
+    <div id="button-container-red">
+      <button id="btnStarters">Entradas/Starters</button>
+      <button id="btnMains">Entrees/Platos Principales</button>
+      <button id="btnSides">Sides</button><br/>
+      <button id="btnSpecials">Especiales/Specials</button>
+      <button id="btnKids">Kids/Ni&ntilde;os</button>
+      <button id="btnDrinks">Bebidas/Drinks</button>
+      <button id="btnAll">All/Todo</button>
     </div>
-  </div> -->
-    <div class="transbox">
+  </div>
+
+  <div class="transbox">
+    <div class="food-photo-banner">
+      <img src="./asada.jpeg" class="food-image" alt="beef, onions, and peppers on a grill"/>
+      <img src="./asadatacos.jpeg" class="food-image" alt="beef, onions, and peppers on a grill"/>
+      <img src="./burrito.jpeg" class="food-image" alt="beef, onions, and peppers on a grill"/>
+      <img src="./tacoheart.jpeg" class="food-image" alt="beef, onions, and peppers on a grill"/>
+    </div>
+  </div>
+
+
+    <!-- <div class="transbox">
       <div id="button-container">
         <a href="#Starters" class="button">Starters</a>
-        <a href="#Main" class="button">Main Dishes</a>
+        <a href="#Plato" class="button">Main Dishes</a>
         <a href="#Sides" class="button">Sides</a>
         <a href="#Kids" class="button">Kids</a>
-        <a href="#Drinks" class="button">Drinks</a>
+        <a href="#Bebidas" class="button">Drinks</a>
         <a href="#Specials" class="button">Specials</a>
         
       </div>
-    </div>
+    </div> -->
     <div class="transbox">
       <ul id="allDishesUL"></ul>
+      <ul id="startersUL"></ul>
+      <ul id="mainsUL"></ul>
+      <ul id="sidesUL"></ul>
+      <ul id="specialsUL"></ul>
+      <ul id="kidsUL"></ul>
+      <ul id="drinksUL"></ul>
     </div>
-
-    <ul id="startersUL"></ul>
-    <ul id="mainsUL"></ul>
-    <ul id="sidesUL"></ul>
-    <ul id="specialsUL"></ul>
-    <ul id="kidsUL"></ul>
-    <ul id="drinksUL"></ul>
-
 
 
 <script src="dishes.js"></script>
