@@ -75,7 +75,7 @@ let dishes = [
         "title" : "Quesadilla",
         "descriptionEng" : "Your choice of meat, served with rice, beans, or house salad.",
         "descriptionEsp" : "Escoja su carne, servida con arroz, frijoles o ensalada de la casa.",
-        "imageURL" : null,
+        "imageURL" : "./images/quesadilla.jpeg",
         "course" : "Starters",
         "id" : 12,
         "price" : 8.59
@@ -100,8 +100,8 @@ let dishes = [
     },
     {
         "title": "Burrito La Villa",
-        "descriptionEng" : null,
-        "descriptionEsp" : null,
+        "descriptionEng" : "Your choice of meat served with rice, beans, and cheese.",
+        "descriptionEsp" : "Escoja su carne, con arroz, frijoles, y queso.",
         "imageURL" : null,
         "course" : "Starters",
         "id" : 14,
@@ -362,7 +362,7 @@ let dishes = [
     {
         "title": "Los Compadres",
         "descriptionEng" : "Grilled shrimp with your choice of steak or chicken. Served with avocado, rice, and salad.",
-        "descriptionEsp" : "Camar&oacute;n y asada &oacute; camar&oacute;n y pollo, servidos con arroz, aguacate y ensalada.",
+        "descriptionEsp" : "Camar&oacute;n y asada o camar&oacute;n y pollo, servidos con arroz, aguacate y ensalada.",
         "imageURL" : null,
         "course" : "Mains",
         "id" : 46,
@@ -405,9 +405,9 @@ let dishes = [
         "price" : 2.99
     },
     {
-        "title": "Milanesa de Pollo &oacute; Res",
+        "title": "Milanesa de Pollo o Res",
         "descriptionEng" : "Breaded chicken breast or steak, with rice, beans, and avocado.",
-        "descriptionEsp" : "Pechuga &oacute; bistec empanizado con arroz, frijoles, y aguacate.",
+        "descriptionEsp" : "Pechuga o bistec empanizado con arroz, frijoles, y aguacate.",
         "imageURL" : null,
         "course" : "Mains",
         "id" : 64,
@@ -442,8 +442,8 @@ let dishes = [
     },
     {
         "title": "Taco Plate",
-        "descriptionEng" : null,
-        "descriptionEsp" : null,
+        "descriptionEng" : "Three tacos with your choice of meat, served with rice and beans. Comes with a soda.",
+        "descriptionEsp" : "Escoja su carne, con arroz, frijoles, y soda.",
         "imageURL" : null,
         "course" : "Mains",
         "id" : 38,
@@ -513,6 +513,15 @@ let dishes = [
         "price" : 15.59
     },
     {
+        "title": "Pizzabirria",
+        "descriptionEng" : null,
+        "descriptionEsp" : null,
+        "imageURL" : "./images/pizzabirria.jpg",
+        "course" : "Mains",
+        "id" : 441,
+        "price" : null
+    },
+    {
         "title": "Kids Quesadilla",
         "descriptionEng" : null,
         "descriptionEsp" : null,
@@ -579,7 +588,7 @@ let dishes = [
         "title": "Heart Plate",
         "descriptionEng" : null,
         "descriptionEsp" : null,
-        "imageURL" : null,
+        "imageURL" : "./images/tacoheart.png",
         "course" : "Specials",
         "id" : 54,
         "price" : 28.00

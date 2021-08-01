@@ -59,7 +59,7 @@ for (let index = 0; index < dishes.length; index++) {
     let dish = dishes[index]  
     let dishItem = `
                         <li>
-                            <b>${dish.title}</b>&nbsp&nbsp&nbsp&nbsp$${dish.price}&nbsp&nbsp
+                            <b>${dish.title}</b>
                             <br/><br/>${nullCheck(dish.descriptionEsp)}
                             <br/><br/><i>${nullCheck(dish.descriptionEng)}</i>
                         </li>
@@ -80,7 +80,7 @@ btnMains.addEventListener("click", function() {
         let main = mains[index]  
         let mainItem = `
                             <li>
-                                <b>${main.title}</b>&nbsp&nbsp&nbsp&nbsp$${main.price}&nbsp&nbsp
+                                <b>${main.title}</b>
                                 <br/><br/>${nullCheck(main.descriptionEsp)}
                                 <br/><br/><i>${nullCheck(main.descriptionEng)}</i>
                             </li>
@@ -102,7 +102,7 @@ btnSides.addEventListener("click", function() {
         let side = sides[index]  
         let sideItem = `
                             <li>
-                                <b>${side.title}</b>&nbsp&nbsp&nbsp&nbsp$${side.price}&nbsp&nbsp
+                                <b>${side.title}</b>
                             </li>
                             <br/><br/>
                             `
@@ -122,7 +122,7 @@ btnStarters.addEventListener("click", function() {
         let starter = starters[index]  
         let starterItem = `
                             <li>
-                                <b>${starter.title}</b>&nbsp&nbsp&nbsp&nbsp$${starter.price}&nbsp&nbsp
+                                <b>${starter.title}</b><br/>
                                 <br/><br/>${nullCheck(starter.descriptionEsp)}
                                 <br/><br/><i>${nullCheck(starter.descriptionEng)}</i>
                             </li>
@@ -144,7 +144,7 @@ btnSpecials.addEventListener("click", function() {
         let special = specials[index]  
         let specialItem = `
                             <li>
-                                <b>${special.title}</b>&nbsp&nbsp&nbsp&nbsp$${special.price}&nbsp&nbsp
+                                <b>${special.title}</b>
                                 <br/><br/>${nullCheck(special.descriptionEsp)}
                                 <br/><br/><i>${nullCheck(special.descriptionEng)}</i>
                             </li>
@@ -166,7 +166,7 @@ btnDrinks.addEventListener("click", function() {
         let drink = drinks[index]  
         let drinkItem = `
                             <li>
-                                <b>${drink.title}</b>&nbsp&nbsp&nbsp&nbsp$${drink.price}&nbsp&nbsp
+                                <b>${drink.title}</b
                             </li>
                             <br/><br/>
                             `
@@ -186,7 +186,7 @@ btnKids.addEventListener("click", function() {
         let kid = kids[index]  
         let kidItem = `
                             <li>
-                                <b>${kid.title}</b>&nbsp&nbsp&nbsp&nbsp$${kid.price}&nbsp&nbsp
+                                <b>${kid.title}</b>
                             </li>
                             <br/><br/>
                             `
@@ -206,7 +206,7 @@ btnAll.addEventListener("click", function() {
         let dish = dishes[index]  
         let dishItem = `
                             <li>
-                                <b>${dish.title}</b>&nbsp&nbsp&nbsp&nbsp$${dish.price}&nbsp&nbsp
+                                <b>${dish.title}</b>
                                 <br/><br/>${nullCheck(dish.descriptionEsp)}
                                 <br/><br/><i>${nullCheck(dish.descriptionEng)}</i>
                             </li>
