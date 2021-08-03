@@ -23,6 +23,12 @@ https://catch-up-over-coffee.surge.sh
     - a selection of food images
     - all menu items, with a selection of buttons to view only dishes of a certain course (starters, sides, drinks, etc) or view all dishes.
 
+* **Contact Info (English/Spanish):**
+![](https://github.com/nicolealdurien/Tacos-La-Villa/blob/main/images/bottomeng.png?raw=true)
+
+![](https://github.com/nicolealdurien/Tacos-La-Villa/blob/main/images/bottom-esp.png?raw=true)
+
+
 * **Menu Page:**
 ![](https://github.com/nicolealdurien/Tacos-La-Villa/blob/main/images/menutop.png?raw=true)
 <br/><br/>
