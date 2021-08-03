@@ -1,8 +1,10 @@
 # Tacos La Villa
 
+
 * **Live link:**
 https://catch-up-over-coffee.surge.sh
 
+![](https://github.com/nicolealdurien/Tacos-La-Villa/blob/main/images/hometop.png?raw=true)
 
 * **Purpose of the app:** <br/><br/>
  This app was created as an informational website for a local taqueria. The site includes location, operating hours, contact information, and full menu, with most information available in both English and Spanish. 
@@ -21,6 +23,10 @@ https://catch-up-over-coffee.surge.sh
     - a selection of food images
     - all menu items, with a selection of buttons to view only dishes of a certain course (starters, sides, drinks, etc) or view all dishes.
 
+* **Menu Page:**
+![](https://github.com/nicolealdurien/Tacos-La-Villa/blob/main/images/menutop.png?raw=true)
+<br/><br/>
+![](https://github.com/nicolealdurien/Tacos-La-Villa/blob/main/images/menubottom.png?raw=true)
 
 * **Languages/Tools Used:**
 Vanilla Javascript, HTML/CSS, Surge, Github, VSCode
