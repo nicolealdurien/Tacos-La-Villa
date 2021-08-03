@@ -13,7 +13,7 @@ https://catch-up-over-coffee.surge.sh
     The home page is available in both an English and a Spanish version. Both versions include:
     - a slideshow with images of the food, staff, and TripAdvisor review
     - an embedded Google Map of the restaurant's location, allowing users to find directions from their location
-    - restaurant hours and contact information
+    - restaurant hours, contact information, links to establishment's FB and TikTok accounts
     - link to the menu
 
     The menu page is bilingual English/Spanish on a single page, and includes:

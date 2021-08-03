@@ -6,10 +6,8 @@ html {
 
 body {
     margin: 0;
-    /* Photo by Alex Arekuzendo on Unsplash */
-    /* background-image: url("flags.jpg"); */
-    /* Photo by Jorge Aguilar on Unsplash */
-    background-image: url("mxflag.jpg");
+    /* Photo by Pina Messina on Unsplash */
+    background-image: url("bowls.jpg");
     background-color: #006341
 }
 
@@ -39,7 +37,7 @@ body {
 
 div.transbox {
   margin: 10px;
-  background-color: rgb(199, 196, 196, 0.7);
+  background-color: rgba(199, 196, 196, 0.6);
   border: 1px solid black;
 }
 
